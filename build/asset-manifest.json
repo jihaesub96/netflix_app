@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nf_app/static/css/main.fb482c90.css",
+    "main.js": "/nf_app/static/js/main.00bbd8ac.js",
+    "index.html": "/nf_app/index.html",
+    "main.fb482c90.css.map": "/nf_app/static/css/main.fb482c90.css.map",
+    "main.00bbd8ac.js.map": "/nf_app/static/js/main.00bbd8ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb482c90.css",
+    "static/js/main.00bbd8ac.js"
+  ]
+}
