@@ -1,0 +1,55 @@
+.Ath_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    padding: 40px;
+    height: 100%;
+}
+.AthForm_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.authInput{
+    margin: 0 auto;
+    width: 60%;
+    height: 30px;
+    padding: 10px; border-radius: 5px;
+    background-color: rgba(255,255,255,0.9);
+    border: 1px solid #444444;
+    font-size: 12px; color: #000000;
+    margin-bottom: 20px;
+}
+
+.authInput.authSubmit{
+    width:65%;
+    background: #e50914; color: #fff;
+    text-align: center;
+    border: 1px solid #e50914;
+    cursor: pointer;
+}
+.authError{color: tomato; text-align: center; font-weight: 500;
+    font-size: 12px;}
+
+.authSwitch{display: block;
+    margin: 0 auto;
+    margin-top: 10px; margin-bottom: 50px;
+    cursor: pointer;
+    font-size: 12px;
+    color: #FFF; cursor: pointer;
+}
+
+.AthForm_Footer{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%; 
+    background-color: rgba(0, 0, 0, 0.9);
+    border: none;    
+}

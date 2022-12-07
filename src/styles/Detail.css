@@ -1,0 +1,12 @@
+.Detail__content{
+    display: block;
+    position: relative;
+    padding: 20px;
+    color: aliceblue;
+    line-height: 200%;
+}
+span.Detail__user_perc{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+}

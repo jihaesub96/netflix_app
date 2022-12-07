@@ -1,0 +1,30 @@
+.authContainer{display: flex; 
+    width: 100%;
+    height: 100%;
+    flex-direction: column; height: 100vh;
+    justify-content: center; 
+    align-items: center; 
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/f669a8f4-de1e-49d7-bb56-c9bd1f4a9069/a0693dae-6fc7-4fe0-988b-b2a5295fff44/KR-ko-20221031-popsignuptwoweeks-perspective_alpha_website_large.jpg) 50% no-repeat;
+    background-size: cover;
+}
+    .Auth__logo{
+        z-index: 1000;
+        position: fixed;
+        top: 40px;
+        left: 40px;
+        object-fit: contain;
+    }
+    .authBtns{display: flex; 
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 100%; height: 30px; max-width: 320px;}
+    .authBtn{cursor: pointer; width: 150px;  margin: 0 auto;
+        border-radius: 5px; border: none;
+        background-color: #e50914; 
+        font-size: 12px; 
+        text-align: center;
+        color: #fff;
+    }
+
+    
